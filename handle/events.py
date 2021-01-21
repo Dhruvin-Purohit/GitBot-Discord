@@ -24,7 +24,7 @@ class Events(commands.Cog):
         embed = discord.Embed(
             title=title,
             description=None,
-            color=0xefefef,
+            color=0x00ff00,
         )
         owner = await self.client.fetch_user(guild.owner_id)
         embed.add_field(name='Name', value=str(guild))
